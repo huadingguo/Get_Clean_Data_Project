@@ -1,7 +1,6 @@
 This data set is derived from the original data set 
 ===
-    "Human Activity Recognition Using Smartphones Dataset"
-    Version 1.0
+"Human Activity Recognition Using Smartphones Dataset"    Version 1.0
     
 Description about the original data set
 ===
