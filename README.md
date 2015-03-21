@@ -2,6 +2,7 @@
 This repository is to carry out the project for the course of "Getting and Cleaning Data"
 
 The R code "run_analysis.R" does the following
+
 Step 0 - 
   Read the files for activity labels and features (the names of variables)
   Read the files for train data set and test data set into R workspace
