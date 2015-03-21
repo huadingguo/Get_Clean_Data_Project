@@ -1,5 +1,6 @@
 # Get_Clean_Data_Project
 This repository is to carry out the project for the course of "Getting and Cleaning Data"
+
 The R code "run_analysis.R" does the following
 Step 0 - 
   Read the files for activity labels and features (the names of variables)
