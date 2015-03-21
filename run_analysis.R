@@ -8,6 +8,7 @@ library (dplyr)
 ## set the current work directory to 
 ## the directory that contains the Samsung data
 setwd("C:/Users/Dingguo/Dropbox/Coursera/3GettingandCleaningData/WorkSpace/UCI HAR Dataset")
+# setwd("C:/Dropbox/Coursera/3GettingandCleaningData/WorkSpace/UCI HAR Dataset")
 ## save the path of the original directory
 originalworkdir <- getwd()
 ## read the following files
