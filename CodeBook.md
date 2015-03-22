@@ -101,5 +101,4 @@ Variables
  - "WALKING"
  - "WALKING_DOWNSTAIRS"
  - "WALKING_UPSTAIRS"
-- The 3rd to 81 columns - numeric class - the average values of measurements on the mean and standard deviation for each measurement.
-    The meaning of the variables in the 3rd to 81 columns are basically as described in the original data set.
+- The 3rd to 81 columns - numeric class - the average values of the means and standard deviations of each measurement for each activity that each subject carried out. The meanings of names of the variables in the 3rd to 81 columns are basically as described in the original data set. To make the names more understandable, we removed "()" and "-" in the original variable names; replaced "Frq" with "Frequency"; replaced "std" with "StandardDeviation"; replaced "Acc" with "Acceleration"; replaced "mean" with "Mean"; and replaced "Mag" with "Mangnitude". The first letter in each variable name, either "t" or "f", means that the corresponding measurement is either a time domain measurement or a frequency domain measurement.
