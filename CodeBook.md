@@ -91,7 +91,7 @@ The new data set includes the following files
 - README.md - The file explains what the analysis code does to process the original data set.
 The followings are the variables in the data set
 
-Variables
+Variables in ComprehensiveDataSet.txt
 ===
 - "subjectid" - integer class - records the id of subjects in ascending order
 - "activity" - factor class - records the activities
@@ -101,4 +101,6 @@ Variables
  - "WALKING"
  - "WALKING_DOWNSTAIRS"
  - "WALKING_UPSTAIRS"
-- The 3rd to 81 columns - numeric class - the average values of the means and standard deviations of each measurement for each activity that each subject carried out. The meanings of names of the variables in the 3rd to 81 columns are basically as described in the original data set. To make the names more understandable, we removed "()" and "-" in the original variable names; replaced "Frq" with "Frequency"; replaced "std" with "StandardDeviation"; replaced "Acc" with "Acceleration"; replaced "mean" with "Mean"; and replaced "Mag" with "Mangnitude". The first letter in each variable name, either "t" or "f", means that the corresponding measurement is either a time domain measurement or a frequency domain measurement.
+- The 3rd to 81 columns - numeric class - the average value of the mean and standard deviation of each measurement for each activity that each subject carried out. The meanings of names of the variables in the 3rd to 81 columns are basically as described in the original data set. To make the names more understandable, we removed "()" and "-" from the original variable names; replaced "Freq" with "Frequency"; replaced "std" with "StandardDeviation"; replaced "Acc" with "Acceleration"; replaced "mean" with "Mean"; and replaced "Mag" with "Magnitude". The first letter in each variable name, either "t" or "f", means that the corresponding measurement is either a time domain measurement or a frequency domain measurement.
+
+There are 180 rows in the data set since we have 30 subjects each of which carried out 6 activities.
