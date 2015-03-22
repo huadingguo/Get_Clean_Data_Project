@@ -1,6 +1,7 @@
 This data set is derived from the original data set 
 ===
 "Human Activity Recognition Using Smartphones Dataset"    Version 1.0
+    "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
     
 General description about the original data set
 ===
