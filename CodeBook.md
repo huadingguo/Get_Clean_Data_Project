@@ -83,14 +83,23 @@ features.txt,
 X_train.txt, y_train.txt, subject_train.txt
 X_test.txt, y_test.txt, subject_test.txt
 
-The merged and processed data set
-====
-
-This data set includes the following files: 
-  ComprehensiveDataSet.txt - The file that includes the merged data of training data and test data from the original data set.
-  run_analysis.R - The R code which is used to process and merge the original data set.
-  README.md - The file explains what the analysis code does to process the original data set.
+Files in new data set 
+===
+The new data set includes the following files
+- ComprehensiveDataSet.txt - The file that includes the merged and summarized data of subject id,training data and test data from the original data set.
+- run_analysis.R - The R code which is used to merge and summarize the original data set.
+- README.md - The file explains what the analysis code does to process the original data set.
 The followings are the variables in the data set
 
-First column "subjectid"
-  The id of subjects are listed in ascending order
+Variables
+===
+- "subjectid" - integer class - records the id of subjects in ascending order
+- "activity" - factor class - records the activities
+ - "LAYING"
+ - "SITTING"
+ - "STANDING"
+ - "WALKING"
+ - "WALKING_DOWNSTAIRS"
+ - "WALKING_UPSTAIRS"
+- The 3rd to 81 columns - numeric class - the average values of measurements on the mean and standard deviation for each measurement.
+    The meaning of the variables in the 3rd to 81 columns are basically as described in the original data set.
